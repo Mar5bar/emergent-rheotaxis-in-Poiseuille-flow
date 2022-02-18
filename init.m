@@ -1,4 +1,6 @@
-% We'll work in the z-theta system, ignoring y.
+addpath('./helpers')
+% We'll work in the z-theta system.
+
 
 zInit = 1;
 thetaInit = pi/6;
