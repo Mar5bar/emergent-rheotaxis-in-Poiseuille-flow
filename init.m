@@ -10,7 +10,7 @@ tspan = [0, 1000];
 
 omega = 50; % Frequency of driving oscillation.
 gamma = 1; % Characteristic shear rate.
-lambda = 1.2*pi; % Phase shift.
+lambda = 0.8*pi; % Phase shift.
 u = @(T) 1 + 0.5*sin(2*pi*T);
 B = @(T) 0.32 + 0.3*sin(2*pi*T + lambda);
 

@@ -4,7 +4,7 @@ zInit = 1;
 thetaInit = pi/4;
 
 % Range of ts to simulate over.
-tspan = [0, 1000];
+tspan = [0, 200];
 
 omega = 50; % Frequency of driving oscillation.
 gamma = 1; % Characteristic shear rate.
