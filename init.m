@@ -34,6 +34,7 @@ params.BBar = BBar;
 IB = @(T) -0.3*cos(2*pi*T + lambda)/(2*pi);
 avgIBuMinusUBar = avg(@(T) IB(T).*(u(T) - uBar));
 params.avgIBuMinusUBar = avgIBuMinusUBar;
+params.avgIuBMinusBBar = -avgIBuMinusUBar;
 
 % The threshold value of H0 for which we swap between tumbling (theta0 in
 % [0,2*pi]) and swinging (theta0 in smaller range) is given simply as H0 = g(0,params);
