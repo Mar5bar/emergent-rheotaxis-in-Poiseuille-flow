@@ -1,5 +1,5 @@
 % Full ODEs for object in Poiseuille flow with varying Bretherton constant.
-% dx/dt = V * cos(theta) [decouples]
+% dx/dt = V * cos(theta) [decouples]. Note that this is the motion in the frame of the flow, not the lab frame.
 % dy/dt = V * sin(theta)
 % dtheta/dt = gamma * y * (1 - B * cos(2*theta))
 
